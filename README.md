@@ -136,25 +136,36 @@ The system manages the following core entities:
 5. **Comprehensive Models**: Rich domain models with proper relationships
 6. **Seed Data**: Database is populated with sample data for testing
 
-## 🎓 Assignment Tasks
+## 🎓 Assignment Instructions
 
-### Basic Tasks
-1. Explore the API endpoints using Swagger UI
-2. Create new customers and accounts through the API
-3. Perform transactions between accounts
-4. Query customer account balances
+### Create a .NET MAUI application to connect to the Banking Class Exercise API
 
-### Intermediate Tasks
-1. Add validation to prevent negative account balances
-2. Implement transaction history filtering
-3. Add customer search functionality
-4. Create account statement generation
+This project uses WebAPI as a REST API and EntityFramework as the ORM to SQLServer.
 
-### Advanced Tasks
-1. Implement authentication and authorization
-2. Add audit logging for all transactions
-3. Create account interest calculation
-4. Implement transaction limits and fraud detection
+1) This assignment will use the same banking application created in Assignment 9
+
+2) Clone the provided solution.
+
+3) Create a new repository for this assignment
+
+4) Copy the provided solution into the new repository (without the .git folder)
+
+5) Copy your existing Banking Application from Assignment 9 (or create a new solution if not complete) to the new repository. (without the .git folder)
+
+6) Open the Visual Studio solution. Ensure both the BankingAPI project and the MAUI Banking app is included in the same project.
+
+7) The project uses EF Migrations to create the database. Use your EF knowledge to create the database.
+
+8) Run the BankingAPI project and study the Swagger Page to Learn the Operations from the API. Also test the API to see if it works correctly and the results are as expected.
+
+9) Use the same application you built in Assignment 9 - MAUI Banking Application and change the application to use the provided API, instead of SQLite. The MAUI app should use the HttpClient class to communicate via Http to the BankingApi.
+
+Create a visual user experience of the data in MAUI using ONLY the provided BankingAPI.
+
+**Submission:**
+- Commit the changes
+- Push to the Remote Git Repository
+- Submit the GitHub Repository URL as the assignment.
 
 ## 🧪 Testing
 
