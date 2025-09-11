@@ -43,6 +43,9 @@ namespace BankingApi.Controllers
             using var dbTransaction = await _context.Database.BeginTransactionAsync();
             try
             {
+                transaction.Account = null;
+                transaction.TransactionType = null;
+
                 // Insert the new transaction
                 _context.Transactions.Add(transaction);
                 await _context.SaveChangesAsync();
